@@ -35,4 +35,11 @@ input {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0px;
+  margin: 18px;
+  gap: 18px;
+}
+
+li {
+  list-style-type: none;
 }
