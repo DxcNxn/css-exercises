@@ -5,10 +5,13 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 img {
   width: 600px;
+  margin-bottom: 16px;
 }
 
 button {
@@ -35,6 +38,8 @@ input {
 
 .content {
   text-align: center;
+  align-content: center;
+  flex: 1;
 }
 
 .footer {
